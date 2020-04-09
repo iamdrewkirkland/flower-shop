@@ -1,0 +1,88 @@
+{
+    "flowers":[
+        {
+        "id": 1,
+        "commonName": "Lilly",
+        "color":"white"
+        },
+        {
+        "id": 2,
+        "commonName": "Rose",
+        "color":"red"
+        },
+        {
+        "id": 3,
+        "commonName": "Tulip",
+        "color":"orange"
+        },
+        {
+        "id": 4,
+        "commonName": "Sunflower",
+        "color":"yellow"
+        },
+        {
+        "id": 5,
+        "commonName": "Dahlia",
+        "color":"pink"
+        }
+    ],
+    "nurseries":[
+        {
+            "id": 1,
+            "name": "Lilly"
+            },
+            {
+            "id": 2,
+            "name": "Rose"
+            },
+            {
+            "id": 3,
+            "name": "Tulip"
+            },
+            {
+            "id": 4,
+            "name": "Sunflower"
+            }
+    ],
+    "distributors":[     {
+        "id": 1,
+        "name": "Lilly"
+        },
+        {
+        "id": 2,
+        "name": "Rose"
+        },
+        {
+        "id": 3,
+        "name": "Tulip"
+        },
+        {
+        "id": 4,
+        "name": "Sunflower"
+        }
+    ],
+    "retailers":[
+        {
+            "id": 1,
+            "name": "Beautiful Flowers",
+            "city": "Nashville",
+            "state":"TN",
+            "address":"475 Main St."
+            },
+            {
+            "id": 2,
+            "name": "Fresh Bouqets",
+            "city": "Atlanta",
+            "state":"GA",
+            "address":"3330 Peachtree St."
+            },
+            {
+            "id": 3,
+            "name": "Gorgeous Gardens",
+            "city": "Greenville",
+            "state":"SC",
+            "address":"100 Garden Center Way"
+            }
+    ]
+    
+}
