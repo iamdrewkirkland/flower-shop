@@ -46,19 +46,31 @@
     ],
     "distributors":[     {
         "id": 1,
-        "name": "Lilly"
+        "name": "First Class Distribution",
+        "city": "Nashville",
+        "state":"TN",
+        "address":"8080 Main St."
         },
         {
         "id": 2,
-        "name": "Rose"
+        "name": "Quality Distributors",
+        "city": "Asheville",
+        "state":"NC",
+        "address":"433 HWY 93 S"
         },
         {
         "id": 3,
-        "name": "Tulip"
+        "name": "Home and Garden Distributors",
+        "city": "Montgomery",
+        "state":"AL",
+        "address":"22 Industrial Blvd."
         },
         {
         "id": 4,
-        "name": "Sunflower"
+        "name": "Sunflower Suppliers",
+        "city": "Atlanta",
+        "state":"GA",
+        "address":"3389 Flower Ave."
         }
     ],
     "retailers":[
@@ -67,21 +79,24 @@
             "name": "Beautiful Flowers",
             "city": "Nashville",
             "state":"TN",
-            "address":"475 Main St."
+            "address":"475 Main St.",
+            "distributorId": 1
             },
             {
             "id": 2,
             "name": "Fresh Bouqets",
             "city": "Atlanta",
             "state":"GA",
-            "address":"3330 Peachtree St."
+            "address":"3330 Peachtree St.",
+            "distributorId": 4
             },
             {
             "id": 3,
             "name": "Gorgeous Gardens",
             "city": "Greenville",
             "state":"SC",
-            "address":"100 Garden Center Way"
+            "address":"100 Garden Center Way",
+            "distributorId": 2
             }
     ]
     
